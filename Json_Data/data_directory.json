@@ -1,0 +1,85 @@
+var alumni = [{
+
+   "alumni_id" : "1",
+
+   "first_name" : "Osama",
+
+   "last_name" : "Hussin",
+
+   "current_working_field" : "web-development",
+
+   "job_title" : "Junior Web Developer",
+
+   "e_mail" : "osamahossien@yahoo.com"
+
+   } , {
+
+   "alumni_id" : "2",
+
+   "first_name" : "Sarah",
+
+   "last_name" : "Egger",
+
+   "current_working_field" : "java-software-development",
+
+   "job_title" : "Trainee Java Software Developer",
+
+   "e_mail" : "####.###@###.###"
+
+   } , {
+
+   "alumni_id" : "3",
+
+   "first_name" : "Anu",
+
+   "last_name" : "Nairis",
+
+   "current_working_field" : "web-development",
+
+   "job_title" : "Junior Web Developer",
+
+   "e_mail" : "####.###@###.###"
+
+   } , {
+
+   "alumni_id" : "4",
+
+   "first_name" : "Clemens",
+
+   "last_name" : "Sauer",
+
+   "current_working_field" : "finance",
+
+   "job_title" : "trader",
+
+   "e_mail" : "clemens.sauer@gmx.net"
+
+   } , {
+
+   "alumni_id" : "5",
+
+   "first_name" : "Peter",
+
+   "last_name" : "Bravo",
+
+   "current_working_field" : "self-employed",
+
+   "job_title" : "Web Developer",
+
+   "e_mail" : "####.###@###.###",
+
+   } , {
+
+   "alumni_id" : "6",
+
+   "first_name" : "Lara",
+
+   "last_name" : "Schmutz",
+
+   "current_working_field" : "system developer",
+
+   "job_title" : "junior c++ developer",
+
+   "e_mail" : "####.###@###.###",
+   
+}];
