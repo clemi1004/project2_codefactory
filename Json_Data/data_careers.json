@@ -14,7 +14,7 @@ var careers = [{
 
    } , {
 
-   "story_id" : "2",
+   "careers_id" : "2",
 
    "companyName" : "Spar",
 
@@ -28,7 +28,7 @@ var careers = [{
 
    } , {
 
-   "story_id" : "3",
+   "careers_id" : "3",
 
    "companyName" : "Amazon",
 
@@ -42,7 +42,7 @@ var careers = [{
 
    } , {
 
-   "story_id" : "4",
+   "careers_id" : "4",
 
    "companyName" : "Lush",
 
