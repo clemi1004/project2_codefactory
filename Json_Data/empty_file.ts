@@ -9,9 +9,26 @@ for (let i = 0; i < alumni.length; i++)
                 <td>`+ alumni[i].current_working_field +`</td>
                 <td>`+ alumni[i].job_title +`</td>
                 <td>`+ alumni[i].e_mail +`</td>
-            </tr>`
+                <td><input type="submit" class="btn" value="Write to me!"></td>
+              </tr>`
          // insert the new element  
          $("#test").append(newItem_1); 
          };
 
+function sendMail(obj)
+{
+    var yourMessage = "Hi, please write me your question!";
+    var subject = "Question regarding Alumni Codefactory";
+    document.location.href = "mailto:" + obj.e_mail + "?subject="
+        + encodeURIComponent(subject)
+        + "&body=" + encodeURIComponent(yourMessage);
+}
+   
+var btns = document.getElementsByClassName("btn");
 
+for(let i = 0; i< btns.length ; i+=1){
+    btns[i].addEventListener("click",function(){
+        sendMail(alumni[i])
+        // console.log(i)
+    });
+}
