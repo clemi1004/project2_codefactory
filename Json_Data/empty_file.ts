@@ -3,7 +3,7 @@ for (let i = 0; i < alumni.length; i++)
       {
          // definition of the new element
          var newItem_1 = 
-        	`<tr>
+        	`<tr class="">
                 <td>`+ alumni[i].first_name +`</td>
                 <td>`+ alumni[i].last_name +`</td>
                 <td>`+ alumni[i].current_working_field +`</td>
