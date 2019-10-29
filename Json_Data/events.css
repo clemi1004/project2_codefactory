@@ -1,0 +1,128 @@
+.wrapper {
+    padding: 50px 50px;
+    max-width: 1200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px
+}
+
+/* Image zoom on hover + Overlay colour */
+.parent {
+    width: 45%;
+    margin: 1%;
+    height: 300px;
+    overflow: hidden;
+    display: inline-block;
+    /* cursor: pointer; */
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.header {
+    display: none;
+    font-size: 35px;
+    color: #ffffff !important;
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 60%;
+    /* cursor: pointer; */
+    text-decoration: none;
+}
+
+.date {
+    display: none;
+    font-size: 16px;
+    color: #ffffff !important;
+    font-family: sans-serif;
+    text-align: left;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    bottom: 0;
+    right: 0;
+    height: 10%;
+    /* cursor: pointer; */
+    text-decoration: none;
+}
+
+.description {
+    display: none;
+    font-size: 14px;
+    color: #ffffff !important;
+    font-family: sans-serif;
+    text-align: left;
+    margin: auto;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    bottom: 0;
+    right: 10%;
+    height: 0;
+    /* cursor: pointer; */
+    text-decoration: none;
+}
+
+.parent:hover .child, .parent:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.parent:hover .child:before, .parent:focus .child:before {
+    display: block;
+}
+
+.parent:hover .header, .parent:focus .header {
+    display: block;
+}
+
+.parent:hover .date, .parent:focus .date {
+    display: block;
+}
+
+.parent:hover .description, .parent:focus .description {
+    display: block;
+}
+
+.child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52,73,94,0.75);
+}
+
+/* /* Media Queries */
+@media screen and (max-width: 720px) {
+    .parent {width: 100%; margin: 20px 0px}
+    .wrapper {padding: 20px 20px;}
+    .header {font-size: 24px ;}
+    .date {font-size: 12px ;}
+    .description {font-size: 10px ;}
+}
+
+

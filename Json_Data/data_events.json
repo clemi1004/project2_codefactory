@@ -8,7 +8,7 @@ var careers = [{
 
    "location" : "CodeFactory Kettenbrückengasse",
 
-   "img" : "https://pbs.twimg.com/profile_images/841720375075602432/9FxF-Zoq_400x400.jpg",
+   "img" : "https://cdn.pixabay.com/photo/2017/12/01/08/52/feedback-2990424_960_720.jpg",
 
    "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, beatae ratione, blanditiis necessitatibus nesciunt alias consequuntur dolor iste, nulla officia possimus voluptatibus maiores eos asperiores, est? Distinctio corporis perferendis earum?"
 
@@ -30,7 +30,7 @@ var careers = [{
 
    "event_id" : "3",
 
-   "type_of_event" : "Lecture followed by a discussion",
+   "type_of_event" : "Lecture and discussion",
 
    "date" : "16.12.2019",
 
@@ -50,7 +50,7 @@ var careers = [{
 
    "location" : "CodeFactory Kettenbrückengasse",
 
-   "img" : "https://pbs.twimg.com/profile_images/841720375075602432/9FxF-Zoq_400x400.jpg",
+   "img" : "https://cdn.pixabay.com/photo/2017/12/01/08/52/feedback-2990424_960_720.jpg",
 
     "description" : "Our regular two week get-together. Come over and chat with current and former students"
    
