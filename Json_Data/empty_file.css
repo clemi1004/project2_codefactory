@@ -1,0 +1,11 @@
+/* /* Media Queries */
+@media screen and (max-width: 550px) {
+    .hide_mobile{display:none;}
+    .hide_email{display:none;}
+}
+
+@media screen and (max-width: 730px) {
+    .hide_mobile{display:none;}
+}
+
+/* source: https://css-tricks.com/zooming-background-images/ */

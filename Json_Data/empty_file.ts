@@ -6,9 +6,9 @@ for (let i = 0; i < alumni.length; i++)
         	`<tr class="">
                 <td>`+ alumni[i].first_name +`</td>
                 <td>`+ alumni[i].last_name +`</td>
-                <td>`+ alumni[i].current_working_field +`</td>
-                <td>`+ alumni[i].job_title +`</td>
-                <td>`+ alumni[i].e_mail +`</td>
+                <td class="hide_mobile">`+ alumni[i].current_working_field +`</td>
+                <td class="hide_mobile">`+ alumni[i].job_title +`</td>
+                <td class="hide_email">`+ alumni[i].e_mail +`</td>
                 <td><input type="submit" class="btn" value="Write to me!"></td>
               </tr>`
          // insert the new element  
