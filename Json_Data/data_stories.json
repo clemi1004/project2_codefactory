@@ -24,7 +24,7 @@ var stories = [{
 
    "picture" : "https://cdn.pixabay.com/photo/2017/10/20/10/58/elephant-2870777_960_720.jpg",
 
-   "my_success_story" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis earum consequuntur suscipit veritatis labore iusto deserunt, id dicta molestias, deleniti. Deserunt temporibus veniam provident esse quisquam hic facere ab aut!"
+   "my_success_story" : "I started building websites when I was a kid and took every IT class possible at school. After a career in interfaith dialogue I returned to programming, took a course in Java Software Development and one for Full Stack Web Development. My languages include Java, a bit of Ruby, HTML5, (S)CSS, JavaScript and Typescript - though I have a special love for Java and Typescript."
 
    } , {
 
@@ -38,7 +38,7 @@ var stories = [{
 
    "picture" : "https://cdn.pixabay.com/photo/2015/01/27/19/34/giraffe-614141_960_720.jpg",
 
-   "my_success_story" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis earum consequuntur suscipit veritatis labore iusto deserunt, id dicta molestias, deleniti. Deserunt temporibus veniam provident esse quisquam hic facere ab aut!"
+   "my_success_story" : "Studying coding has given me a better perspective of what I want to do in my life. Before CodeFactory I had not written a line of code in my life, but now I can present you a moderately nice and moderately responsive web page. Moreover, CodeFactory's moto on giving not only the education, but also serving as a gathering place for alumni is endearing. And they offer beer at the parties!"
 
    } , {
 
@@ -52,7 +52,7 @@ var stories = [{
 
    "picture" : "https://cdn.pixabay.com/photo/2016/01/02/16/53/lion-1118467_960_720.jpg",
 
-   "my_success_story" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis earum consequuntur suscipit veritatis labore iusto deserunt, id dicta molestias, deleniti. Deserunt temporibus veniam provident esse quisquam hic facere ab aut!"
+   "my_success_story" : "I attended Full-Web Development course in September 2019 and finished in December 2019. Before attending the course, I worked in several companies in finance and business intelligence departments. Doing the course at Codefactory was the best decision for me to start a new working-life. They teach you how to work in a programming team and how to solve problems in the end. I am now working again in finance industry but with a lot of programming too, which I love 😊."
 
    } , {
 
